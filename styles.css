@@ -1,0 +1,51 @@
+.cache-redis-config {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.cache-redis-config h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.cache-redis-config h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #999;
+}
+
+.cache-redis-config ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cache-redis-config li {
+  margin-bottom: 10px;
+}
+
+.cache-redis-config li span {
+  font-weight: bold;
+}
+
+.cache-redis-config ul li:last-child {
+  margin-bottom: 0;
+}
+
+.cache-redis-config.error {
+  color: #f00;
+}
+
+.cache-redis-config.success {
+  color: #0f0;
+}
+
+.cache-redis-config.warning {
+  color: #ff0;
+}
