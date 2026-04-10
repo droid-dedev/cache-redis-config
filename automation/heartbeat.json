@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "timestamp": "2024-01-01T12:00:00Z",
+  "service": "cache-redis-config",
+  "version": "1.0.0",
+  "environment": "production",
+  "dependencies": {
+    "redis": {
+      "status": "ok",
+      "latency_ms": 1.2
+    },
+    "config_server": {
+      "status": "ok",
+      "version": "2.5.1"
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.3,
+    "uptime_seconds": 3600
+  }
+}
